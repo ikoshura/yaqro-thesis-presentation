@@ -25,6 +25,8 @@ export const Slide06_Methodology = () => (
         <Stage name="Implementasi" delay={800} />
         <Arrow delay={900} />
         <Stage name="Pengujian" delay={1000} />
+        <Arrow delay={900} />
+        <Stage name="Penerapan & Pemeliharaan" delay={1100} />
     </div>
 
     <p className="mt-16 text-center text-xl max-w-4xl text-gray-700 reveal-item" style={{'--delay': '1100ms'} as React.CSSProperties}>
