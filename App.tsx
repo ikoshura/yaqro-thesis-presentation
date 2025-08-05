@@ -15,7 +15,7 @@ const App: React.FC = () => {
 
   const goToPrevSlide = useCallback(() => {
     if (currentSlide > 0) {
-      setCurrentSlide(current => current + 1);
+      setCurrentSlide(current => current - 1);
     }
   }, [currentSlide]);
 
